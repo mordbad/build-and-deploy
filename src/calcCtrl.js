@@ -32,7 +32,10 @@
 		vm.result = result;
 
 	}
-
+	else if(operator === 'multiply'){
+		var result = firstArg * secondArg;
+		vm.result = result;
+	}
       else {
         vm.result = 'Operator not implemented';
       }
