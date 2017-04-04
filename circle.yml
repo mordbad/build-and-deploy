@@ -4,9 +4,9 @@ dependencies:
     - bower install
 #  post:
 
-#test:
-#  override:
-#    - grunt test
+test:
+  override:
+    - grunt test
 
 #deployment:
 #  prod:
