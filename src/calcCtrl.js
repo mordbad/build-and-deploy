@@ -27,7 +27,7 @@
           vm.result = 'Cannot divide by zero'
         }
       }
-    	else if(operater === 'minus'){
+   	else if(operator === 'minus'){
 		var result = firstArg -secondArg;
 		vm.result = result;
 
